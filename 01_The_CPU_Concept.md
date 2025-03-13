@@ -172,46 +172,7 @@ Each cloud provider uses **different terminology** for CPU allocation, which imp
 ---
 ---
 
-When comparing cloud providers—**Oracle Cloud Infrastructure (OCI)**, **Amazon Web Services (AWS)**, **Microsoft Azure**, and **Google Cloud Platform (GCP)**—it's essential to understand their CPU allocation models and associated pricing structures.
-
-**1. CPU Allocation Models:**
-
-- **OCI:** Utilizes **OCPUs (Oracle Compute Units)**, where **1 OCPU equals 1 physical CPU core**, supporting **two threads (vCPUs)**. This means **1 OCPU = 2 vCPUs**.
-
-- **AWS, Azure, and GCP:** Employ **vCPUs (virtual CPUs)** as their compute performance units. Typically, **1 vCPU corresponds to one thread of a physical core**, leveraging hyper-threading technology.
-
-**2. Pricing Comparison:**
-
-Pricing varies based on instance types, configurations, and commitment durations. Below is a comparison of **on-demand pricing** for general-purpose instances with **4 vCPUs** and **16 GB RAM** across the providers:
-
-- **AWS:** Approximately **$140.16 per month**.
-
-- **Azure:** Approximately **$140.16 per month**.
-
-- **GCP:** Approximately **$142.79 per month**.
-
-- **OCI:** Approximately **$77.38 per month**.
-
-*Note: These figures are approximate and based on specific configurations. Actual prices may vary based on regions and specific instance selections.* citeturn0search4
-
-**3. Performance and Value Considerations:**
-
-While pricing is a critical factor, performance per dollar is equally important. Studies indicate that **OCI's E3.Flex series** offers competitive performance at a lower cost, making it a cost-effective choice for many workloads. citeturn0search7
-
-**4. Commitment Discounts:**
-
-All four providers offer discounts for committed usage:
-
-- **AWS:** Offers **Reserved Instances (RIs)** with discounts up to **75%**.
-
-- **Azure:** Provides **Savings Plans** with discounts up to **72%**.
-
-- **GCP:** Features **Committed Use Contracts (CUDs)** with discounts up to **57%**.
-
-- **OCI:** Offers **Universal Credits (UC)** with discounts up to **30%**.
-
-*Note: Actual discount percentages can vary based on specific services and commitment terms.* citeturn0search4
 
 **Conclusion:**
 
-**Oracle Cloud Infrastructure (OCI)** stands out with its **OCPU model**, offering dedicated physical cores and competitive pricing, especially for compute-intensive workloads. **AWS**, **Azure**, and **GCP** utilize the **vCPU model**, providing flexibility but often at a higher cost. When selecting a provider, it's crucial to consider both pricing and performance requirements to ensure optimal value. 
+**Oracle Cloud Infrastructure (OCI)** stands out with its **OCPU model**, offering dedicated physical cores and competitive pricing, especially for compute-intensive workloads. **AWS**, **Azure**, and **GCP** utilize the **vCPU model**, providing flexibility but often at a higher cost. When selecting a provider, it's crucial to consider both pricing and performance requirements to ensure optimal value.
