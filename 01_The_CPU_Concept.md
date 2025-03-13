@@ -7,10 +7,10 @@ Each cloud provider uses **different terminology** for CPU allocation, which imp
 ### **CPU Units in Each Cloud Provider**
 | Cloud Provider | Term Used | Mapping to Physical Cores | Hyper-Threading |
 |--------------|------------|-------------------------|-----------------|
-| **OCI** (Oracle Cloud) | **OCPU (Oracle Compute Unit)** | **1 OCPU = 1 Physical Core (2 vCPUs)** | ✅ Yes |
-| **AWS** (Amazon Web Services) | **vCPU (Virtual CPU)** | **1 vCPU = 1 Thread (½ Physical Core)** | ✅ Yes |
-| **Azure** (Microsoft Azure) | **vCPU (Virtual CPU)** | **1 vCPU = 1 Thread (½ Physical Core)** | ✅ Yes |
-| **GCP** (Google Cloud Platform) | **vCPU (Virtual CPU)** | **1 vCPU = 1 Thread (½ Physical Core)** | ✅ Yes |
+| **OCI** (Oracle Cloud) | **OCPU (Oracle Compute Unit)** | **1 OCPU = 1 Physical Core (2 vCPUs)** |  Yes |
+| **AWS** (Amazon Web Services) | **vCPU (Virtual CPU)** | **1 vCPU = 1 Thread (½ Physical Core)** |  Yes |
+| **Azure** (Microsoft Azure) | **vCPU (Virtual CPU)** | **1 vCPU = 1 Thread (½ Physical Core)** |  Yes |
+| **GCP** (Google Cloud Platform) | **vCPU (Virtual CPU)** | **1 vCPU = 1 Thread (½ Physical Core)** |  Yes |
 
 ---
 
